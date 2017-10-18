@@ -13,11 +13,9 @@ source:
 
 build:
   number: 0
-  skip: true  # [(win and py27) or (win and py<36)]
 
 requirements:
   build:
-    - python  # [win]
     - toolchain
     - cmake
     - zeromq 4.2.1
