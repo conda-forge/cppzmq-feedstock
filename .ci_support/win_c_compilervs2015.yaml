@@ -1,0 +1,7 @@
+c_compiler:
+- vs2015
+pin_run_as_build:
+  zeromq:
+    max_pin: x.x.x
+zeromq:
+- 4.2.1

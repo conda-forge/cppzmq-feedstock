@@ -16,12 +16,13 @@ build:
 
 requirements:
   build:
-    - toolchain
     - cmake
-    - zeromq 4.2.3
+    - {{ compiler('c') }}
+  host:
+    - zeromq
 
   run:
-    - zeromq 4.2.3
+    - zeromq
 
 test:
   commands:
