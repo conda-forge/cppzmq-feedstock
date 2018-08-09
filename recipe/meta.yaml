@@ -12,16 +12,17 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
-    - toolchain
     - cmake
-    - zeromq 4.2.3
+    - {{ compiler('cxx') }}
+  host:
+    - zeromq {{ version }}
 
   run:
-    - zeromq 4.2.3
+    - {{ pin_compatible('zeromq', max_pin='x.x') }}
 
 test:
   commands:
