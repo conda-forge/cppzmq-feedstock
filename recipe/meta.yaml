@@ -1,7 +1,7 @@
 {% set name = "cppzmq" %}
-{% set version = "4.2.3" %}
+{% set version = "4.3.0" %}
 {% set zeromq_version = "4.2.3" %}
-{% set sha256 = "3e6b57bf49115f4ae893b1ff7848ead7267013087dc7be1ab27636a97144d373" %}
+{% set sha256 = "27d1f56406ba94ee779e639203218820975cf68174f92fbeae0f645df0fcada4" %}
 
 package:
   name: {{ name|lower }}
@@ -13,7 +13,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1
+  number: 0
   skip: true  # [win and vc<14]
 
 requirements:
