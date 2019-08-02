@@ -35,6 +35,7 @@ test:
 about:
   home: http://zeromq.org
   license: MIT
+  license_file: LICENSE
   summary: C++ bindings for 0MQ
 
 extra:
