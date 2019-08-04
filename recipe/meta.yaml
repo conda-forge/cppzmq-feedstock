@@ -1,6 +1,6 @@
 {% set name = "cppzmq" %}
-{% set version = "4.3.0" %}
-{% set sha256 = "27d1f56406ba94ee779e639203218820975cf68174f92fbeae0f645df0fcada4" %}
+{% set version = "4.4.1" %}
+{% set sha256 = "117fc1ca24d98dbe1a60c072cde13be863d429134907797f8e03f654ce679385" %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1001
+  number: 0
   skip: true  # [win and vc<14]
 
 requirements:
@@ -35,6 +35,7 @@ test:
 about:
   home: http://zeromq.org
   license: MIT
+  license_file: LICENSE
   summary: C++ bindings for 0MQ
 
 extra:
