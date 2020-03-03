@@ -1,6 +1,6 @@
 {% set name = "cppzmq" %}
-{% set version = "4.5.0" %}
-{% set sha256 = "64eb4e58eaf0c77505391c6c9a606cffcb57c6086f3431567a1ef4a25b01fa36" %}
+{% set version = "4.6.0" %}
+{% set sha256 = "e9203391a0b913576153a2ad22a2dc1479b1ec325beb6c46a3237c669aef5a52" %}
 
 package:
   name: {{ name|lower }}
