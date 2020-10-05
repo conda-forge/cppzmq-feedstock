@@ -8,5 +8,10 @@ cxx_compiler_version:
 - '8'
 docker_image:
 - condaforge/linux-anvil-ppc64le
+pin_run_as_build:
+  zeromq:
+    max_pin: x.x
 target_platform:
 - linux-ppc64le
+zeromq:
+- 4.3.2
