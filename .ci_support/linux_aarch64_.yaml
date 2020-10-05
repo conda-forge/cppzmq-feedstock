@@ -14,5 +14,10 @@ cxx_compiler_version:
 - '7.5'
 docker_image:
 - condaforge/linux-anvil-aarch64
+pin_run_as_build:
+  zeromq:
+    max_pin: x.x
 target_platform:
 - linux-aarch64
+zeromq:
+- 4.3.2
