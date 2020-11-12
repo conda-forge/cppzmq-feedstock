@@ -5,11 +5,9 @@ Home: http://zeromq.org
 
 Package license: MIT
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/cppzmq-feedstock/blob/master/LICENSE.txt)
 
 Summary: C++ bindings for 0MQ
-
-
 
 Current build status
 ====================
