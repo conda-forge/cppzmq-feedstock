@@ -1,6 +1,6 @@
 {% set name = "cppzmq" %}
-{% set version = "4.7.1" %}
-{% set sha256 = "9853e0437d834cbed5d3c223bf1d755cadee70e7c964c6e42c4c6783dee5d02c" %}
+{% set version = "4.8.1" %}
+{% set sha256 = "7a23639a45f3a0049e11a188e29aaedd10b2f4845f0000cf3e22d6774ebde0af" %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 2
+  number: 0
   skip: true  # [win and vc<14]
 
 requirements:
